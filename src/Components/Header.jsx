@@ -3,10 +3,10 @@ import React from 'react'
 export default function Header() {
   return (
     <div className='header'>
-      <button id='Home'>Marvel</button>
+      <button className='home'>Marvel</button>
       <form>
         <input placeholder='Search...'></input>
-        <button id='All'>All</button>
+        <button className='all'>All</button>
       </form>
     </div>
   )

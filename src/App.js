@@ -9,7 +9,7 @@ function App() {
         <Header />
         <Card_list />
     </div>
-  );
+  )
 }
 
 export default App;

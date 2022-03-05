@@ -1,3 +1,55 @@
+button {
+  cursor: pointer; 
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #212529;
+}
+.header button {
+  background-color: transparent;
+  border: none;
+}
+.header button.home {
+  font-size: 19px;
+  padding-left: 10px;
+}
+.header form {
+  margin: 7px 7px 7px 0;
+}
+.header input {
+  color: #212529;
+  background-color: #fff;
+  padding: 9px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+.header button.all {
+  color: black;
+  /* background-color: #f8f9fa; */
+  border-color: #f8f9fa;
+  padding: 0 20px;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .card-place {
   display: flex;
   padding-bottom: 15px;
@@ -24,42 +76,10 @@
   margin-left: 5%;
   width: 100%;
 }
-.card-place button {
+.card-place .description_button {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
-  border-radius: 10%;
+  border-radius: 5px;
   padding: 3% 4%;
-  background-color: dimgray;
-}
-.header input {
-  background-color: rgb(26, 25, 25);
-  padding: 7px 15px;
-  border: 1px solid rgb(104, 104, 104);
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
-}
-.header button#Home {
-  font-size: 19px;
-  padding-left: 10px;
-}
-.header form {
-  margin: 7px 7px 7px 0;
-}
-.header button#All {
-  padding: 0 20px;
-  height: 100%;
-}
-button {
-  cursor: pointer; 
-}
-.header button {
-  background-color: transparent;
-  border: none;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 5px 0;
-  background-color: rgb(32, 32, 37);
+  background-color: #6c757d;
 }

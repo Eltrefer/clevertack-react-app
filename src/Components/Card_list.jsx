@@ -10,7 +10,7 @@ export default function Card_list() {
   ]
   return (
     <div className='container'>
-      <h1>Персонажи Marvel</h1>
+      <h1>Marvel Heroes</h1>
       <div className='card-list'>
         <Card props={props[0]}/>
         <Card props={props[1]} />
