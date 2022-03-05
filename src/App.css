@@ -19,37 +19,17 @@ button {
   margin: 7px 7px 7px 0;
 }
 .header input {
-  color: #212529;
-  background-color: #fff;
   padding: 9px 15px;
-  border: 1px solid #ced4da;
   border-radius: 0.25px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  border: 1px solid #4b4b4b;
+  border-radius: 5px;
 }
 .header button.all {
-  color: black;
-  /* background-color: #f8f9fa; */
-  border-color: #f8f9fa;
   padding: 0 20px;
   height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card-place {
   display: flex;
   padding-bottom: 15px;
@@ -77,9 +57,32 @@ button {
   width: 100%;
 }
 .card-place .description_button {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 3% 4%;
+  border: none;
   background-color: #6c757d;
+  color: #e2e2e2;
+}
+
+/* light */
+body .light {
+  background-color: #e2e2e2;
+  color: rgb(0, 0, 0);
+}
+.light .header {
+  color: #e2e2e2;
+}
+.light .header input {
+  background-color: #e2e2e2;
+}
+
+/* dark */
+body .dark {
+  background-color: #141414;
+  color: #acacac;
+}
+.dark .header input {
+  background-color: #141414;
 }
