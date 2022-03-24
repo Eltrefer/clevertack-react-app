@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Card_list from './Card_list';
+import Dashboard from './Dashboard';
 
 
 function Search({ details }) {

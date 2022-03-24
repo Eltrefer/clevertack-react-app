@@ -1,14 +1,15 @@
 import React from 'react';
+import Dashboard from './Dashboard';
 
 function Card_list({ filteredPersons }) {
-  
+
   const cardPlace = filteredPersons.map(props => 
     
   <div className='card-place' id={props.id}>
     <img className='img' src={props.img} alt="img" />
     <div className='text-description'>
-      <h3>{props.name}</h3> 
-      <button className='description_button'>Description</button>
+      <h3>{props.name}</h3>
+      <Dashboard />
     </div>
   </div>
   )
@@ -23,4 +24,4 @@ function Card_list({ filteredPersons }) {
   );
 }
 
-export default Card_list;
+export default Card_list; 

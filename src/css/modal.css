@@ -1,0 +1,45 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: var(--bs-font-sans-serif);
+}
+.modal-main {
+  max-width: 500px;
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.display-block {
+  display: block;
+}
+.display-none {
+  display: none;
+}
+.close-button {
+  border-top: 2px solid whitesmoke;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 15px 30px;
+}
+.modal-main img {
+  max-width: 90%;
+}
+.card-modav-description {
+  height: 90vh;
+  overflow-y: scroll;
+  padding: 15px;
+}
+.card-modav-description::-webkit-scrollbar {
+  display: none;
+}
+.card-modav-description li {
+  padding: 3px;
+}

@@ -1,5 +1,5 @@
-button {
-  cursor: pointer; 
+*{
+  pointer-events: auto;
 }
 .header {
   display: flex;
@@ -56,11 +56,11 @@ button {
   margin-left: 5%;
   width: 100%;
 }
-.card-place .description_button {
+.description_button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   border-radius: 4px;
-  padding: 3% 4%;
+  padding: 6px 8px;
   border: none;
   background-color: #6c757d;
   color: #e2e2e2;
