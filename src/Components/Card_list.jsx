@@ -1,5 +1,6 @@
 import React from 'react';
-import Dashboard from './Dashboard';
+import ModalWindow from './ModalWindow';
+
 
 function Card_list({ filteredPersons }) {
 
@@ -9,7 +10,7 @@ function Card_list({ filteredPersons }) {
     <img className='img' src={props.img} alt="img" />
     <div className='text-description'>
       <h3>{props.name}</h3>
-      <Dashboard />
+      <ModalWindow props={props}/>
     </div>
   </div>
   )

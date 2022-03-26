@@ -1,6 +1,9 @@
 *{
   pointer-events: auto;
 }
+.App {
+  height: 100vh;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -67,22 +70,34 @@
 }
 
 /* light */
-body .light {
-  background-color: #e2e2e2;
-  color: rgb(0, 0, 0);
+body .light, 
+.light .modal-main {
+  color: #000;
 }
 .light .header {
   color: #e2e2e2;
 }
-.light .header input {
+.light .header input,
+body .light, 
+.light .modal-main {
   background-color: #e2e2e2;
+}
+.light.modal {
+  background: rgba(0, 0, 0, 0.65);
 }
 
 /* dark */
-body .dark {
-  background-color: #141414;
+body .dark,
+.dark .modal-main {
   color: #acacac;
 }
-.dark .header input {
+.dark .header input,
+body .dark {
   background-color: #141414;
+}
+.dark.modal {
+  background: rgba(0, 0, 0, 0.65);
+}
+.dark .modal-main {
+  background-color: #212529;
 }
