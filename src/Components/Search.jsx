@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Card_list from './Card_list';
+import CardList from './CardList';
 
 
 function Search({ details }) {
@@ -29,7 +29,7 @@ function Search({ details }) {
           <button className='all'>All</button>
         </form>
       </div>
-      <Card_list filteredPersons={filteredPersons} />
+      <CardList filteredPersons={filteredPersons} />
     </>
   );
 }

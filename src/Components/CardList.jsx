@@ -2,7 +2,7 @@ import React from 'react';
 import ModalWindow from './ModalWindow';
 
 
-function Card_list({ filteredPersons }) {
+function CardList({ filteredPersons }) {
 
   const cardPlace = filteredPersons.map(props => 
     
@@ -25,4 +25,4 @@ function Card_list({ filteredPersons }) {
   );
 }
 
-export default Card_list; 
+export default CardList; 
