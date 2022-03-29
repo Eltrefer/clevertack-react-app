@@ -1,7 +1,9 @@
 import './css/normalize.css';
 import './App.css';
+import './css/modal.css'
 
 import Search from "./Components/Search";
+
 
 function App() {
 
