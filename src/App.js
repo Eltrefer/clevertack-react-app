@@ -80,7 +80,6 @@ function App() {
     <div className="App dark">
       <Search details={props}/>
       <button className='switch-button' onClick={switch_theme} >GHgjjgjgjg</button>
-      <img src='./SpiderMan.jpg' />
     </div>
   );
 }
